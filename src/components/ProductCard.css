@@ -1,0 +1,16 @@
+.product-card__body {
+  display: flex;
+  width: 250px;
+  height: 250px;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+}
+
+.product-card__body__image {
+  width: 500px;
+  height: 200px;
+  max-width: 500px;
+  max-height: 200px;
+}

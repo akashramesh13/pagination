@@ -1,0 +1,30 @@
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page-number {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.pagination-container {
+  text-align: center;
+  margin: 15px;
+  font-size: 20px;
+}
+
+.page-number:active {
+  color: rgb(114, 199, 155);
+}
+
+.page-number:hover {
+  background-color: rgb(220, 245, 243);
+}
+
+.active {
+  background-color: aqua;
+}
