@@ -2,10 +2,11 @@
   "name": "search-auto-complete",
   "version": "1.0.0",
   "main": "src/index.js",
+  "homepage": "http://akashramesh13.github.io/pagination",
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "start": "webpack serve --mode=development"
   },
   "keywords": [],
@@ -27,6 +28,7 @@
     "babel-loader": "^9.2.1",
     "babel-plugin-react-css-modules": "^5.2.6",
     "css-loader": "^7.1.2",
+    "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^5.6.3",
     "webpack-dev-server": "^5.2.0"
   }
